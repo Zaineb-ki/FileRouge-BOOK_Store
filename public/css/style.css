@@ -1,0 +1,816 @@
+body {
+    background-color: #ffffff;
+    font-family: "Josefin-sans", Regular Roman;
+    color: black;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  small{
+    font-family: "Josefin Sans", Regular Roman;
+  } 
+  
+  .img-slide{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .no-padding {
+    padding: 0;
+  }
+  
+  .no-border {
+    border: none;
+  }
+  
+  /* MODULES - Individual site components */
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  li {
+      text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    outline: none;
+    text-decoration: none;
+  }
+ 
+  
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+  }
+  
+  img {
+    border: none;
+  }
+  
+  .mu-read-more-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .mu-read-more-btn:hover, .mu-read-more-btn:focus {
+    color: #fff;
+  }
+  
+  .mu-post-btn {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 18px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .mu-post-btn:hover, .mu-post-btn:focus {
+    color: #fff;
+  }
+  
+  /* LAYOUTS - Page layout styles */
+  /*==================
+   HEADER SECTION
+  ====================*/
+  #mu-header {
+    background-color: #f8f8f8;
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #mu-header .mu-header-area {
+    display: inline;
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+  }
+  #mu-header .mu-header-area .mu-header-top-left {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
+    display: inline;
+    float: left;
+    font-size: 14px;
+  }
+  #mu-header .mu-header-area .mu-header-top-left .mu-top-email i {
+    margin-right: 5px;
+  }
+  #mu-header .mu-header-area .mu-header-top-left .mu-top-phone {
+    border-left: 1px solid #ddd;
+    display: inline;
+    font-size: 14px;
+    float: left;
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+  #mu-header .mu-header-area .mu-header-top-left .mu-top-phone i {
+    margin-right: 5px;
+  }
+  #mu-header .mu-header-area .mu-header-top-right {
+    display: inline;
+    float: left;
+    text-align: right;
+    width: 100%;
+  }
+  #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav {
+    display: inline-block;
+  }
+  #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li {
+    display: inline-block;
+  }
+  #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 8px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  #mu-header span {
+    color: black;
+    font-family: "Josefin Sans", Regular Roman;
+    display: inline-block;
+  }
+#navbarSupportedContent a {
+  color: black;
+  font-family: "Josefin Sans", Regular Roman;
+}
+
+#navbarSupportedContent a #active{
+  color: #F7C248;
+  font-family: "Josefin Sans", Regular Roman;
+}
+.fonts-nav {
+  justify-content: space-between;
+}
+.fonts-nav a {
+  font-size: 15px;
+}
+
+/* slides */
+.btn-slide1 {
+  background-color: #F7C248;
+  font-family: "Josefin Sans", Regular Roman;
+  color: white;
+  border: 1px solid #F7C248;
+  border-radius: 30px;
+  margin-top: 10%;
+  font-size: 22px;
+}
+.btn-slide2 {
+  background-color: #DAEEF7;
+  font-family: "Josefin Sans", Regular Roman;
+  color: #55769F;
+  border: 1px solid #DAEEF7;
+  border-radius: 30px;
+  margin-top: 10%;
+  font-size: 22px;
+}
+.btn-slide3 {
+  background-color: #F3E0FC;
+  font-family: "Josefin Sans", Regular Roman;
+  color: #9E9797;
+  border: 1px solid  #F3E0FC;
+  border-radius: 30px;
+  margin-top: 10%;
+  font-size: 22px;
+}
+  /* Parte 1 */
+.part1 h1{
+    color: #173D7A;
+    font-family: "Josefin Sans", Regular Roman;
+    justify-content: center;
+}
+
+.bt-Details {
+    font-size: 15px;
+    background-color: #4D6A98;
+    border-color: #4D6A98;
+    border: 1px solid #4D6A98;
+    width: 100%;
+    height: 100%;
+	  border-radius: 50px;
+    font-size: 14px;
+    justify-content: space-evenly;
+
+}
+
+.card-title-olde-price{
+    color: #CFCCCC;
+    font-family: "Josefin-sans", Regular Roman;
+    font-size: 20px;
+}
+.card-title-price{
+    color: #464545;
+    font-family: "Josefin-sans", Regular Roman;
+    font-size: 20px;
+}
+
+.card-text-title{
+    color: #173D7A;
+    font-family: "Josefin-sans", Regular Roman;
+    font-size: 23px;
+}
+.card-text-Author{
+    color: #CFCCCC;
+    font-family: "Josefin-sans", Regular Roman;
+    font-size: 17px;
+
+}
+.card-text{
+    line-height: normal;
+}
+
+.bt-Details a {
+    color: white;
+    font-family: "Josefin-sans", Regular Roman;
+
+}
+.bt-Acheter{
+    font-size: 15px;
+    background-color: #D4ECFF;
+    border-color: #D4ECFF;
+    border: 1px solid #D4ECFF;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 14px;
+    justify-content: space-evenly;
+}
+.bt-Acheter a {
+    color: white;
+    font-family: "Josefin-sans", Regular Roman;
+    font-size: 14px;
+    justify-content: space-evenly;
+
+}
+
+.plus{
+    margin-top: 10px;
+}
+
+.plus p a {
+    font-size: 20px;
+    font-family: "Josefin-sans", Regular Roman;
+    color: black;
+}
+
+/* Parte 2 */
+.part2 h1{
+    color: #173D7A;
+    font-family: "Josefin Sans", Regular Roman;
+    justify-content: center;
+}
+
+.decouvrire-Acc h4{
+    color: #CFCCCC;
+    font-family: "Josefin Sans", Regular Roman;
+    justify-content: center;
+    font-size: 24px;
+}
+
+/* part3 */
+.part3 h1{
+  color: #173D7A;
+  font-family: "Josefin Sans", Regular Roman;
+  justify-content: center;
+}
+
+
+.part3 .inscri img{
+  width: 70%;
+  justify-content: center;
+}
+.inscri {
+  margin-top: 3%;
+}
+
+.bt-inscri{
+  background-color: transparent;
+  border: 1px solid white;
+  border-color: white;
+  border-radius: 50px;
+  margin-top: -7%;
+  margin-right: 2%;
+  width: 10%;
+  margin-left: 61%;
+
+  
+}
+.bt-inscri a {
+  color: white;
+  font-family: "Josefin Sans", Regular Roman;
+  font-size: 30px;
+}
+
+/* footer */
+hr { 
+
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border: 1px solid #9E9797;
+  width: 50%;	
+  margin-top: 5%;
+} 
+
+.part4 {
+  margin-top: 1%;
+}
+
+.part4 h3 {
+   color: #173D7A;
+    font-family: "Josefin Sans", Regular Roman;
+    justify-content: center;
+}
+.part4 .fonts {
+  justify-content: space-evenly;
+}
+.part4 .fonts a {
+  font-size: 25px;
+}
+
+.part4 .media  {
+  margin-left: 50%;
+}
+
+
+/*================== FOOTER ====================*/
+#mu-footer {
+  display: inline;
+  float: left;
+  width: 100%;
+  font-family: "Josefin Sans", Regular Roman;
+
+}
+#mu-footer .mu-footer-top {
+  background-color: #f8f8f8;
+  display: inline;
+  float: left;
+  padding: 50px 0;
+  width: 100%;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget h5 {
+  color: #173D7A;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
+  color: #464545;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 5px 0 1px 1px;
+  position: relative;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:before {
+  /* left: 0; */
+  /* position: absolute; */
+  top: 5px;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
+  margin-left: 5px;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget p {
+  color: #464545;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form {
+  display: inline;
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn {
+  color: #fff;
+  border: medium none;
+  border-radius: 4px;
+  font-size: 14px; 
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+}
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget address p {
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+#mu-footer .mu-footer-bottom {
+  background-color: #D8D8D8;
+  display: inline;
+  float: left;
+  padding: 8px 0;
+  width: 100%;
+}
+#mu-footer .mu-footer-bottom .mu-footer-bottom-area {
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+#mu-footer .mu-footer-bottom .mu-footer-bottom-area p {
+  color: #464545;
+  margin-bottom: 0;
+  letter-spacing: 0.3px;
+}
+#mu-footer .mu-footer-bottom .mu-footer-bottom-area p a {
+  color: #464545;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========
+=================
+Page Qui Somme Nous
+=================
+============== */
+
+/* part1 */
+.part1-QSN {
+  width: 100%;
+}
+.part1-QSN #bar {
+  margin:0;
+	background-color:#F8F8F8;
+	height: 80px;
+	width: 100% !important;
+}
+.part1-QSN #bar p {
+  font-family: "Josefin Sans", Regular Roman;
+	font-size:30px;
+	margin: 0;
+	color: #0086C7;
+  line-height: 80px;
+  
+}
+/* part2 */
+.part2-QSN{
+  margin-top: 3%;
+}
+.img1-QSN {
+  margin-right: -19%;
+}
+.img1-QSN img {
+  width: 60%;
+}
+
+.h4-QSN {
+  color: #F7C248;
+  font-size: 30px;
+  font-family: "Josefin Sans", Regular Roman;
+}
+.text-QSN {
+  margin-right: 26%;
+  margin-top: 14%;
+}
+
+.h5-QSN {
+  color: #4D6A98;
+  font-size: 22px;
+  font-family: "Josefin Sans", Regular Roman;
+}
+
+.part3-QSN {
+  margin-top: 3%;
+}
+.part3-QSN .h2-QSN h2 {
+  color: #4D6A98;
+  font-family: "Josefin Sans", Regular Roman;
+  justify-content: center;
+}
+
+.part4-QSN {
+  margin-top: 3%;
+  
+}
+
+.part4-QSN .section-Left-QSN img {
+  width:150px;
+
+}
+
+.part4-QSN .section-Left-QSN h5 {
+  color: #4D6A98;
+  font-size: 22px;
+  font-family: "Josefin Sans", Regular Roman;
+  margin-top: 2%;
+}
+.part4-QSN .section-Left-QSN p {
+  color: #464545;
+  font-family: "Josefin Sans", Regular Roman;
+  
+}
+
+.part4-QSN .section-right-QSN img {
+  width:150px;
+
+}
+
+.part4-QSN .section-right-QSN h5 {
+  color: #4D6A98;
+  font-size: 22px;
+  font-family: "Josefin Sans", Regular Roman;
+  margin-top: 2%;
+}
+.part4-QSN .section-right-QSN p {
+  color: #464545;
+  font-family: "Josefin Sans", Regular Roman;
+  
+}
+.img-Apropos{
+  margin-top: 4%;
+}
+
+/* ===========
+=================
+Service Client
+=================
+============== */
+
+
+/* part1 */
+.part1-SC {
+  width: 100%;
+}
+.part1-SC #bar {
+  margin:0;
+	background-color:#F8F8F8;
+	height: 80px;
+	width: 100% !important;
+}
+.part1-SC #bar p {
+  font-family: "Josefin Sans", Regular Roman;
+	font-size:30px;
+	margin: 0;
+	color: #0086C7;
+  line-height: 80px;
+  
+}
+.part2-SC {
+  margin-top: 2%;
+}
+.part2-SC .p-SC {
+  color: #464545;
+  font-family: "Josefin Sans", Regular Roman;
+}
+.part2-SC .img-SC img{
+  border-radius: 50%;
+  width: 400px;
+}
+
+
+#Envoyer-SC {
+  background-color: #A0C3C7;
+  color: white;
+  border-radius: 50px;
+  font-family: "Josefin Sans", Regular Roman;
+  margin-left: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========
+=================
+Nous Contacter
+=================
+============== */
+
+
+/* part1 */
+.part1-NousC {
+  width: 100%;
+}
+.part1-NousC #bar {
+  margin:0;
+	background-color:#F8F8F8;
+	height: 80px;
+	width: 100% !important;
+}
+.part1-NousC #bar p {
+  font-family: "Josefin Sans", Regular Roman;
+	font-size:30px;
+	margin: 0;
+	color: #0086C7;
+  line-height: 80px;
+  
+}
+
+
+/* part2 */
+.part2-NousC{
+  margin-top: 2%;
+}
+.part2-NousC .h5-NousC h5 {
+  font-family: "Josefin Sans", Regular Roman;
+  font-size:20px;
+  color: #464545;
+}
+
+
+
+.formContact #formContact .form-group .form-control {
+  width: 100%;
+}
+
+.part3-NousC {
+  margin-top: 3%;
+}
+
+
+.part3-NousC #Envoyer-NousC {
+  background-color: #00A3C1;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  font-family: "Josefin Sans", Regular Roman;
+  margin-left: 85%;
+
+}
+
+
+
+
+
+/* media responsive */
+@media screen and (max-width: 920px) {
+  #Cards {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
+    
+  }
+  .part3 .bt-inscri a{
+    font-size: 20px;
+    margin-left: -24%;
+  }
+  .part3-NousC #Envoyer-NousC{
+    margin-left: 42%;
+  }
+  #Envoyer-SC{
+    margin-left: 42%;
+  }
+  .part2-SC .img-SC img {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 3%;
+  }
+  #part2-QSN{
+    flex-direction: column-reverse;
+  }
+ #imgNousC img{
+    visibility: hidden;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Login & singin */
+
+#forms {
+  display: inline;
+}
+
+#client-infos input[type="email"], #client-infos input[type="password"], #client-infos input[type="text"] {
+      width: 60%;
+      background-color: #D4ECFF;
+      border-radius: 5%;
+      width: 63%;
+}
+#client-infos .form-group .form-control {
+  width: 60%;
+  display: inline-block;
+}
+
+
+#btnIns{
+  cursor: pointer;
+  border: none;
+  background-color: #F2EFEF;
+  color: #000;
+  border-radius: 19px;
+  font-family: "Josefin Sans", Regular Roman;
+
+}
+
+
+
+
+
+#btn-details {
+  font-size: 15px;
+  background-color: #4D6A98;
+  border-color: #4D6A98;
+  border: 1px solid #4D6A98;
+  width: 88%;
+  height: 100%;
+  border-radius: 50px;
+  font-size: 14px;
+  
+
+}
